@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background: black;
+  color: #00ff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.countdown-text {
+  font-size: 3em;
+  animation: dropIn 1s ease forwards;
+}
+
+@keyframes dropIn {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

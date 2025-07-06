@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mrdevilex-site
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
